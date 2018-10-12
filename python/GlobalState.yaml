@@ -1,0 +1,58 @@
+GlobalState:
+  state: INIT
+  context:
+    finish_context:
+      last_state: ESTOP
+      result_code:
+
+GlobalState:
+  state: ESTOP
+  context:
+    finish_context:
+      last_state: ESTOP
+      result_code:
+
+GlobalState:
+  state: WAIT
+  context:
+    finish_context:
+      last_state: PARKING_OUT
+      result_code:
+
+
+
+GlobalState:
+  state: FINISH
+  context:
+    finish_context:
+      last_state: PARKING_IN
+      result_code:
+
+GlobalState:
+  state: PARKING_IN
+  context:
+    finish_context:
+      last_state: FINISH
+      result_code:
+
+GlobalState:
+  state: PARKING_OUT
+  context:
+    finish_context:
+      last_state: WAIT
+      result_code:
+
+GlobalState:
+  state: ESTOP
+  context:
+    finish_context:
+      last_state: CRUISE
+      result_code:
+
+
+GlobalState:
+  state: ESTOP
+  context:
+    finish_context:
+      last_state: INIT
+      result_code:

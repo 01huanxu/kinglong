@@ -1,0 +1,18 @@
+workers:
+- name: "example"
+  commands:
+  - name: "start"
+    command: "bash ./bin/closeloop/bin/start.sh &"
+  - name: "stop"
+    command: "bash ./bin/closeloop/bin/stop.sh"
+- name: "script"
+  commands:
+  - name: "sleep"
+    command: "sleep 20 &"
+  - name: "top"
+    command: "top -b > top.log &"
+  command_on_startup: "top"
+monitors:
+- name: "script"
+  cmd_keys: ["sleep", "20"]
+  

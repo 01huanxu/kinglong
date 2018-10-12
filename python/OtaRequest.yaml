@@ -1,0 +1,34 @@
+OtaRequest:
+  IsInitialized: True /没有字段/
+  action: START_UPGRADE 
+  tag: 'pppppppp'
+
+OtaRequest:
+  IsInitialized: True /没有字段/
+  action: GET_UPGRADE_RESULT 
+  tag: 'pppppppp'
+
+OtaRequest:
+  IsInitialized: True /没有字段/
+  action: CHECK_AND_UPGRADE   
+  tag: 'pppppppp'
+
+OtaRequest:
+  IsInitialized: True /没有字段/
+  action: CHECK_CURRENT_VERSION 
+  tag: 'pppppppp'
+
+OtaRequest:
+  IsInitialized: True /没有字段/
+  action: UPGRADE_DESCRIPTION   
+  tag: 'pppppppp'
+
+OtaRequest:
+  IsInitialized: True /没有字段/
+  action: OPER_UPGRADE_INSTALL 
+  tag: 'pppppppp'
+
+OtaRequest:
+  IsInitialized: True /没有字段/
+  action: OPER_UPGRADE_IGNORE   
+  tag: 'pppppppp'

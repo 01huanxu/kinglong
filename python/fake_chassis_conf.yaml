@@ -1,0 +1,325 @@
+# -*- coding:  UTF-8 -*-
+################################################################################
+#
+# Copyright (c) 2017 Baidu.com, Inc. All Rights Reserved
+#
+################################################################################
+
+project : kinglong
+
+Chassis:
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_NEUTRAL
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: AUTO_MODE
+    odometer_m: 50
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_REVERSE
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: AUTO_MODE
+    odometer_m: 51
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_PARKING
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: AUTO_MODE
+    odometer_m: 52
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_LOW
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: AUTO_MODE
+    odometer_m: 53
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_INVALID
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: AUTO_MODE
+    odometer_m: 54
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_NONE
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: AUTO_MODE
+    odometer_m: 54
+
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_LOW
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: COLD
+    odometer_m: 53
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_LOW
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: WARM
+    odometer_m: 53
+
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_LOW
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: AUTO_MODE
+    odometer_m: 53
+
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_LOW
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: ECO
+    odometer_m: 53
+
+  -
+    speed_mps: 25.5
+    throttle_percentage: 38.8
+    brake_percentage: 15
+    steering_percentage: 25
+    header: 
+      timestamp_sec: 
+    door: True
+    front_lamp: True
+    emergency_lamp: True
+    courtesy_lamp: True
+    headlights: True
+    vin: '1234567elf0000000'
+    extend_info: 
+      kinglong: 
+        dump_energy: 20.0
+        driving_range: True
+        charge_state: 3
+    parking_brake: True
+    gear_location: GEAR_LOW
+    air_condition: 
+      temperature: 15
+      fan: 12
+      open: True
+      indoor_temperature: 35
+      mode: FAN
+    odometer_m: 53
+
+
+
+
+

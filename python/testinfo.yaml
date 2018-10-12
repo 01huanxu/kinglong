@@ -1,0 +1,49 @@
+# -*- coding: UTF-8 -*-
+################################################################################
+#
+# Copyright (c) 2017 Baidu.com, Inc. All Rights Reserved
+#
+################################################################################
+
+project : kinglong
+
+Chassis:
+  speed_mps: 25.5
+  throttle_percentage: 38.8
+  brake_percentage: 15
+  steering_percentage: 25
+  header:
+    timestamp_sec:
+  door:True
+  front_lamp:
+  emergency_lamp:
+  courtesy_lamp:
+  headlights:
+  vin:'1234567elf'
+  extend_info:
+    kinglong:
+      dump_energy:
+      driving_range:
+      charge_state:
+  parking_brake:
+  gear_location:
+  air_condition:
+    temperature:15
+    fan:
+    open:True
+    indoor_temperature:35
+  mode:1
+  odometer_m:50
+
+
+Pose:
+    position:
+        x:18.8
+        y:18.9
+    orientation:
+        qx:11.01
+        qy:11.02
+        qz:11.03
+        qw:11.04
+
+

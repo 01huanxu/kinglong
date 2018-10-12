@@ -1,0 +1,88 @@
+DecisionResult:
+  -
+    remain_distance: 55.1
+    light_signal:
+      turn_signal: NO_TURN 
+    object_decision:
+      decision:
+        object_decision:
+          ignore:
+        prediction:
+          perception_obstacle:
+            id: 25
+      type: PREDICTION 
+
+  -
+    remain_distance: 55.1
+    light_signal:
+      turn_signal: LEFT_TURN 
+    object_decision:
+      decision:
+        object_decision:
+          ignore:
+        prediction:
+          perception_obstacle:
+            id: 25
+      type: PREDICTION 
+
+  -
+    remain_distance: 55.1
+    light_signal:
+      turn_signal: RIGHT_TURN
+    object_decision:
+      decision:
+        object_decision:
+          ignore:
+        prediction:
+          perception_obstacle:
+            id: 25
+      type: VIRTUAL
+
+  -
+    remain_distance: 55.1
+    light_signal:
+      turn_signal:  RIGHT_TURN
+    object_decision:
+      decision:
+        object_decision:
+          ignore:
+        prediction:
+          perception_obstacle:
+            id: 25
+      type:  PERCEPTION 
+
+
+  -
+    remain_distance: 55.1
+    light_signal:
+      turn_signal: LEFT_TURN 
+    object_decision:
+      decision:
+        object_decision:
+          ignore:
+        prediction:
+          perception_obstacle:
+            id: 25
+      type: PERCEPTION 
+
+
+  -
+    remain_distance: 55.1
+    light_signal:
+      turn_signal: LEFT_TURN 
+      decision:
+        object_decision:
+          overtake:
+        prediction:
+          perception_obstacle:
+            id: 25
+      type: PERCEPTION 
+
+
+
+
+
+
+
+
+

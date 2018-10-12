@@ -1,0 +1,5 @@
+ObjectDecisionType:
+  overtake:
+    overtake_point:
+      x: 15.5
+      y: 15.6

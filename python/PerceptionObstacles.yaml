@@ -1,0 +1,5 @@
+PerceptionObstacles:
+  low_illumination: True
+  perception_obstacle:
+    id: 30
+    point_cloud: 15.5
