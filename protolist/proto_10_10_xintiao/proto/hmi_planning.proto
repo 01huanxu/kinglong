@@ -1,0 +1,12 @@
+// Defines the message about planning demand.
+package adu.hmi;
+
+option java_multiple_files = true;
+
+import "hmi_common.proto";
+
+// The Unit planning traj message
+message PlanningObject {
+    optional PolygonPoint point = 1;    // planning position point
+    optional double heading = 2;        // heading of planning traj
+}

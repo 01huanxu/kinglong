@@ -1,0 +1,63 @@
+# -*- coding: UTF-8 -*-
+################################################################################
+#
+# Copyright (c) 2017 Baidu.com, Inc. All Rights Reserved
+#
+################################################################################
+
+project : kinglong
+
+# StartRouting & PreRouting,
+# use XiongAnShiMinZhongXin_JinLong_1.5.0.3 map.
+RoutingRequest_xiongan:
+  start:
+    x: 439086.2381303252
+    y: 4426436.89773644
+    z: 0.0
+  end:
+    x: 439086.2381303252
+    y: 4426436.89773644
+    z: 0
+  start_quaternion:
+    qx: -0
+    qy: 0
+    qz: 0.97336193
+    qw: 0.229273953
+  end_quaternion:
+    qx: -0
+    qy: 0
+    qz: 0.97336193
+    qw: 0.229273953
+
+
+# StartRouting & PreRouting,
+# use adu_common_JinLongBaiduDaSha_1.5.0.1 map.
+RoutingRequest_dasha:
+  start:
+    x: 439922.8226995289
+    y: 4433377.911206831
+    z: 0.0
+  end:
+    x: 439840.3169335601
+    y: 4433605.110645821
+    z: 0
+  start_quaternion:
+    qx: 0.00405447788568549
+    qy: 0.001365964447359311
+    qz: -0.7938465149490503
+    qw: -0.6081031212331102
+  end_quaternion:
+    qx: 0.002896011296739739
+    qy: -0.004216853655436018
+    qz: 0.6011743593964379
+    qw: -0.7991015084881901
+
+
+# DisengageTypeFeedback
+DisengageTypeContent:
+  timestamp: 1531149896
+  type: 0
+
+# CheckCalibrationValidity
+CalibrationValidityRequest:
+  type: 1
