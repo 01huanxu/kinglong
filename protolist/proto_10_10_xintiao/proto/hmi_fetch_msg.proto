@@ -15,9 +15,9 @@ import "sensor_ultrasonic.proto";
 enum FetchKeyType {
     ALL = 0;
     ADC_STATUS = 1;
-    OPERATION_STATUS = 2;
-    ROUTING = 3;
-    PLANNING = 4;
+    OPERATION_STATUS = 2;//  to do
+    ROUTING = 3;// to do
+    PLANNING = 4;//to do
     OBSTACLES = 5;
     PREDICTION = 6;
     DECISION = 7;

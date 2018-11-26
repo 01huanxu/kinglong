@@ -75,7 +75,7 @@ service HMIGrpcService {
     // ota request from panel app
     rpc NotiOTAClient(OtaRequest) returns (OtaResponse) {}
 
-    // collection mode
+    // collection modeπ
     rpc FetchCollectDataMsg(FetchCollectDataKey) returns (FetchCollectDataPackage) {}
     rpc NotiWorkingState(WorkStateRequest) returns (StatusResponse) {}
     rpc NotiDataCheck(DataCheckRequest) returns (DataCheckResult) {}

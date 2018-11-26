@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "proto"
+		},
+		{
+			"path": "proto_pb2"
+		},
+		{
+			"path": "hmi-server-zijian/python"
+		},
+		{
+			"path": "/Volumes/workspance/workspace/python_test/grpc"
+		}
+	]
+}
